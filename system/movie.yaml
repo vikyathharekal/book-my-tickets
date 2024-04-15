@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  namespace: default
+  annotations:
+    backstage.io/managed-by-location: url:https://github.com/vikyathharekal/book-my-tickets/tree/main/system
+  name: movie
+  tags: []
+relations:
+spec:
+  owner: Harness_Account_All_Users
+  domain: default
